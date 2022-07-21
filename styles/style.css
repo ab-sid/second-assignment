@@ -390,7 +390,7 @@ footer {
     }
 }
 
-/* medium device */
+/* MEDIUM DEVICE */
 
 @media screen and (min-width:577px) and (max-width:768px) {
     .container {
@@ -458,7 +458,9 @@ footer {
     }
 
     .sidebar-btns {
-        padding: 40px 35px;
+        padding: 40px 0px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .sidebar-btn {
@@ -622,11 +624,6 @@ footer {
         font-weight: 500;
         text-decoration: none;
 
-    }
-
-    .footer-menu {
-        padding-top: 50px;
-        margin-bottom: 40px;
     }
 
 }
